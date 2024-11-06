@@ -1,6 +1,5 @@
 import { StackNavigationProp } from '@react-navigation/stack';
 
-import { ENDPOINTS } from './actions/api';
 import { APP_SCREENS } from './constants/ui';
 
 export type IconProps = {
@@ -35,9 +34,3 @@ export type FriendType = {
   relationship: string;
   friend_since: number;
 };
-
-export namespace Actions {
-  export type api = {
-    [ENDPOINTS.GET_PLAYER_SUMMARIES]: {};
-  };
-}

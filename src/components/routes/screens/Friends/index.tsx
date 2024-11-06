@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FlatList, Text, View } from 'react-native';
 
 import { SeparateLine } from 'src/components/atoms/SeparateLine';
-import { ProfileCard } from 'src/components/organisms/ProfileCard';
+import { ProfileCard } from 'src/components/molecules/ProfileCard';
 import { FriendType, UserType } from 'src/types';
 
 import { styles } from './styles';

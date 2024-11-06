@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { View } from 'react-native';
 
 import { Button } from 'src/components/atoms/Button';
-import { ProfileCard } from 'src/components/organisms/ProfileCard';
+import { ProfileCard } from 'src/components/molecules/ProfileCard';
 import { useUserStore } from 'src/mobx/user';
 import { UserType } from 'src/types';
 
