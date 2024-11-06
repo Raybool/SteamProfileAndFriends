@@ -27,8 +27,6 @@ export const Friends: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [friendsIDs]);
 
-  console.log(friendsData);
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Cписок друзей</Text>
