@@ -15,7 +15,7 @@ export const Friends: React.FC = () => {
   const friendsIDs = String(friends.map((friend) => friend.steamid));
 
   const sortedFriendIDs = friends
-    .sort((a, b) => a.friend_since - b.friend_since)
+    .sort((a, b) => b.friend_since - a.friend_since)
     .map((friend) => friend.steamid);
 
   useEffect(() => {
